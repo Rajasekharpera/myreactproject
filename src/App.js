@@ -1,6 +1,7 @@
 import './App.css';
 import Person from './Person';
 import Event from './Event';
+import SumCalculator from './Sumcalculator';
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
       <Person name="giri" age="30"/>
       <Person name="pera" age="57"/>
       <Event/>
+      <SumCalculator/>
       
     </div>
   );
